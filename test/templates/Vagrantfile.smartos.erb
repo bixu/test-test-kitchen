@@ -11,7 +11,7 @@ Vagrant.configure("2") do |c|
   c.zone.name = 'base64'
   c.zone.brand = 'joyent'
   c.zone.image = 'd34c301e-10c3-11e4-9b79-5f67ca448df0'
-  c.zone.memory = 3536
+  c.zone.memory = 512
   c.zone.disk_size = 5
 
   <% if config[:vm_hostname] %>
